@@ -157,8 +157,8 @@ def person(name, age, **kw):
 
 函数person除了必选参数name和age外，还接受关键字参数kw。在调用该函数时，可以只传入必选参数：
 >>> person('Michael', 30)
-
 name: Michael age: 30 other: {}
+
 也可以传入任意个数的关键字参数：
 >>> person('Bob', 35, city='Beijing')
 name: Bob age: 35 other: {'city': 'Beijing'}
